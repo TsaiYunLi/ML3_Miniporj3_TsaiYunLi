@@ -15,4 +15,4 @@ There are lots of potential problems and limitations in this project. In the EDA
 
 In general, I used the cited sources extensively, because understanding, building, and training a good CycleGAN model is pretty much very difficult for my first unsupervised generative model project. I added annotations and comments throughout this project, not only to clarify each step, but as a note for what I have learned through this research process.
 
-Please let me know if there is a way to speed up the training loop without modifying my CycleGAN architecture and reducing the number of photos to be 'monetified' in the dataset. Refer to my GitHub repo to evaluate the results of this project. In addition, hope this can make up for the Kaggle submission problem.
+Please let me know if there is a way to speed up the training loop without modifying my CycleGAN architecture and reducing the number of photos to be 'monetified' in the dataset. Refer to my GitHub repo to evaluate the results of this project (esp. the file 'ML3_Miniproj3_results.pdf'). In addition, hope this can make up for the Kaggle submission problem.
