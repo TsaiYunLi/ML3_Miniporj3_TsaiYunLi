@@ -1,1 +1,8 @@
 # ML3_Miniporj3_TsaiYunLi
+This is a non-awarding, for-knowledge Kaggle practice for the application of generative adversarial networks (GANs) on photo style transfer. We are asked to use a model in the GANs family to learn from the provided Monet paintings and normal photos in order to 'monetify' the latter, i.e. to make the photos Monet-like. There are no paired examples in the datasets; that is, there is no direct, one-to-one correspondence between a photo and a Monet painting in the datasets. Analogically speaking, the datasets are 'unlabeled.'
+
+There are several common GANs model candidates, including Deep Convolutional GANs (DCGANs), Conditional GANs, and CylceGAN. Among all of them, CycleGAN is most suitable for this Kaggle task, since it is an unsupervised, generative, deep learning model, specialized in traslating images from one domain X (the Monet paintings) to the other domain Y (the ordinary photos) without paired examples.
+
+However, due to the very complex structure of a CycleGAN model and my first attempt of doing a project in this domain, I decided to perform a 'transfer learning' using the CycleGAN architecture with the optimal model hyperparameters and training tips described in both Wolf's 2018 and Shrivastava et al.'s 2016 articles. That is, my CycleGAN model to be built for this project would closely follow their 'blueprints,' not only to increase the possibility of completing the Kaggle task, but also to serve as a good opportunity for me to learn about and understand a CycleGAN model in more depth.
+
+P.s. Please see links in the reference section for the Kaggle task overview and datasets, as well as the heavily cited Wolf 2018 and Shrivastava et al 2016 articles.
